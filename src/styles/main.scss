@@ -1,3 +1,17 @@
 @use 'variables';
 @use 'fonts';
 @use 'typography';
+
+
+
+//FEEDBACK
+.feedback-list {
+  &__item {
+    display: flex;
+  }
+
+  &__left {
+    padding: 70px 70px 75px;
+  }
+}
+//
